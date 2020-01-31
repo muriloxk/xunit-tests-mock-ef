@@ -1,0 +1,195 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Services/Alura.CoisasAFazer.Services.csproj": {}
+  },
+  "projects": {
+    "/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Core/Alura.CoisasAFazer.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Core/Alura.CoisasAFazer.Core.csproj",
+        "projectName": "Alura.CoisasAFazer.Core",
+        "projectPath": "/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Core/Alura.CoisasAFazer.Core.csproj",
+        "packagesPath": "/Users/murilosanches/.nuget/packages/",
+        "outputPath": "/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/murilosanches/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Infrastructure/Alura.CoisasAFazer.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Infrastructure/Alura.CoisasAFazer.Infrastructure.csproj",
+        "projectName": "Alura.CoisasAFazer.Infrastructure",
+        "projectPath": "/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Infrastructure/Alura.CoisasAFazer.Infrastructure.csproj",
+        "packagesPath": "/Users/murilosanches/.nuget/packages/",
+        "outputPath": "/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/murilosanches/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Core/Alura.CoisasAFazer.Core.csproj": {
+                "projectPath": "/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Core/Alura.CoisasAFazer.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Services/Alura.CoisasAFazer.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Services/Alura.CoisasAFazer.Services.csproj",
+        "projectName": "Alura.CoisasAFazer.Services",
+        "projectPath": "/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Services/Alura.CoisasAFazer.Services.csproj",
+        "packagesPath": "/Users/murilosanches/.nuget/packages/",
+        "outputPath": "/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Services/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/murilosanches/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Core/Alura.CoisasAFazer.Core.csproj": {
+                "projectPath": "/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Core/Alura.CoisasAFazer.Core.csproj"
+              },
+              "/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Infrastructure/Alura.CoisasAFazer.Infrastructure.csproj": {
+                "projectPath": "/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Infrastructure/Alura.CoisasAFazer.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

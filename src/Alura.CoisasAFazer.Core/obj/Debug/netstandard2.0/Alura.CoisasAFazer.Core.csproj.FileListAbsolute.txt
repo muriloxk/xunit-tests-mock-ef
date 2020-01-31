@@ -1,0 +1,17 @@
+C:/Users/copacabana_alura/Source/Repos/testes-integracao/src/Alura.CoisasAFazer.Core/bin/Debug/netstandard2.0/Alura.CoisasAFazer.Core.deps.json
+C:/Users/copacabana_alura/Source/Repos/testes-integracao/src/Alura.CoisasAFazer.Core/bin/Debug/netstandard2.0/Alura.CoisasAFazer.Core.dll
+C:/Users/copacabana_alura/Source/Repos/testes-integracao/src/Alura.CoisasAFazer.Core/bin/Debug/netstandard2.0/Alura.CoisasAFazer.Core.pdb
+C:/Users/copacabana_alura/Source/Repos/testes-integracao/src/Alura.CoisasAFazer.Core/obj/Debug/netstandard2.0/Alura.CoisasAFazer.Core.csprojAssemblyReference.cache
+C:/Users/copacabana_alura/Source/Repos/testes-integracao/src/Alura.CoisasAFazer.Core/obj/Debug/netstandard2.0/Alura.CoisasAFazer.Core.csproj.CoreCompileInputs.cache
+C:/Users/copacabana_alura/Source/Repos/testes-integracao/src/Alura.CoisasAFazer.Core/obj/Debug/netstandard2.0/Alura.CoisasAFazer.Core.AssemblyInfoInputs.cache
+C:/Users/copacabana_alura/Source/Repos/testes-integracao/src/Alura.CoisasAFazer.Core/obj/Debug/netstandard2.0/Alura.CoisasAFazer.Core.AssemblyInfo.cs
+C:/Users/copacabana_alura/Source/Repos/testes-integracao/src/Alura.CoisasAFazer.Core/obj/Debug/netstandard2.0/Alura.CoisasAFazer.Core.dll
+C:/Users/copacabana_alura/Source/Repos/testes-integracao/src/Alura.CoisasAFazer.Core/obj/Debug/netstandard2.0/Alura.CoisasAFazer.Core.pdb
+/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Core/bin/Debug/netstandard2.0/Alura.CoisasAFazer.Core.deps.json
+/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Core/bin/Debug/netstandard2.0/Alura.CoisasAFazer.Core.dll
+/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Core/bin/Debug/netstandard2.0/Alura.CoisasAFazer.Core.pdb
+/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Core/obj/Debug/netstandard2.0/Alura.CoisasAFazer.Core.csprojAssemblyReference.cache
+/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Core/obj/Debug/netstandard2.0/Alura.CoisasAFazer.Core.AssemblyInfoInputs.cache
+/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Core/obj/Debug/netstandard2.0/Alura.CoisasAFazer.Core.AssemblyInfo.cs
+/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Core/obj/Debug/netstandard2.0/Alura.CoisasAFazer.Core.dll
+/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Core/obj/Debug/netstandard2.0/Alura.CoisasAFazer.Core.pdb

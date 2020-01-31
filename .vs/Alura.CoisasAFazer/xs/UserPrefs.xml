@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{33A3FD7A-FED3-4E79-953C-BE31EC561F7A}|Default">
+  <MonoDevelop.Ide.ItemProperties.src.Alura.CoisasAFazer.WebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Alura.CoisasAFazer.WebApp/Controllers/TarefasController.cs">
+    <Files>
+      <File FileName="tests/Alura.CoisasAFazer.Tests/FakeRepositoryTarefas.cs" Line="16" Column="10" />
+      <File FileName="src/Alura.CoisasAFazer.Services/Handlers/CadastraTarefaHandler.cs" Line="13" Column="1" />
+      <File FileName="tests/Alura.CoisasAFazer.Tests/UnitTest1.cs" Line="17" Column="1" />
+      <File FileName="src/Alura.CoisasAFazer.WebApp/Controllers/TarefasController.cs" Line="23" Column="53" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Alura.CoisasAFazer" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="Alura.CoisasAFazer.Core" expanded="True" />
+              <Node name="Alura.CoisasAFazer.Infrastructure" expanded="True" />
+              <Node name="Alura.CoisasAFazer.Services" expanded="True">
+                <Node name="Handlers" expanded="True" />
+              </Node>
+              <Node name="Alura.CoisasAFazer.WebApp" expanded="True">
+                <Node name="Controllers" expanded="True">
+                  <Node name="TarefasController.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="tests" expanded="True">
+              <Node name="Alura.CoisasAFazer.Tests" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Alura.CoisasAFazer" expanded="True">
+            <Node name="tests" expanded="True">
+              <Node name="Alura.CoisasAFazer.Tests" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
