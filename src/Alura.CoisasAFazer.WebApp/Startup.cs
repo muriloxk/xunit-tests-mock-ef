@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Alura.CoisasAFazer.Infrastructure;
+﻿using Alura.CoisasAFazer.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -33,7 +29,6 @@ namespace Alura.CoisasAFazer.WebApp
             });
 
             services.AddDbContext<DbTarefasContext>(cfg => cfg.UseSqlServer(Configuration.GetConnectionString("DbTarefas")));
-
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 

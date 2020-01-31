@@ -35,9 +35,7 @@
 /Users/murilosanches/Projects/testes-integracao/tests/Alura.CoisasAFazer.Tests/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.TestPlatform.Common.dll
 /Users/murilosanches/Projects/testes-integracao/tests/Alura.CoisasAFazer.Tests/bin/Debug/netcoreapp3.1/testhost.dll
 /Users/murilosanches/Projects/testes-integracao/tests/Alura.CoisasAFazer.Tests/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
-/Users/murilosanches/Projects/testes-integracao/tests/Alura.CoisasAFazer.Tests/bin/Debug/netcoreapp3.1/Remotion.Linq.dll
 /Users/murilosanches/Projects/testes-integracao/tests/Alura.CoisasAFazer.Tests/bin/Debug/netcoreapp3.1/System.Data.SqlClient.dll
-/Users/murilosanches/Projects/testes-integracao/tests/Alura.CoisasAFazer.Tests/bin/Debug/netcoreapp3.1/System.Interactive.Async.dll
 /Users/murilosanches/Projects/testes-integracao/tests/Alura.CoisasAFazer.Tests/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll
 /Users/murilosanches/Projects/testes-integracao/tests/Alura.CoisasAFazer.Tests/bin/Debug/netcoreapp3.1/xunit.abstractions.dll
 /Users/murilosanches/Projects/testes-integracao/tests/Alura.CoisasAFazer.Tests/bin/Debug/netcoreapp3.1/xunit.assert.dll
@@ -122,3 +120,8 @@
 /Users/murilosanches/Projects/testes-integracao/tests/Alura.CoisasAFazer.Tests/obj/Debug/netcoreapp3.1/Alura.CoisasAFazer.Tests.csproj.CopyComplete
 /Users/murilosanches/Projects/testes-integracao/tests/Alura.CoisasAFazer.Tests/obj/Debug/netcoreapp3.1/Alura.CoisasAFazer.Tests.dll
 /Users/murilosanches/Projects/testes-integracao/tests/Alura.CoisasAFazer.Tests/obj/Debug/netcoreapp3.1/Alura.CoisasAFazer.Tests.pdb
+/Users/murilosanches/Projects/testes-integracao/tests/Alura.CoisasAFazer.Tests/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/murilosanches/Projects/testes-integracao/tests/Alura.CoisasAFazer.Tests/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+/Users/murilosanches/Projects/testes-integracao/tests/Alura.CoisasAFazer.Tests/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.InMemory.dll
+/Users/murilosanches/Projects/testes-integracao/tests/Alura.CoisasAFazer.Tests/bin/Debug/netcoreapp3.1/Castle.Core.dll
+/Users/murilosanches/Projects/testes-integracao/tests/Alura.CoisasAFazer.Tests/bin/Debug/netcoreapp3.1/Moq.dll

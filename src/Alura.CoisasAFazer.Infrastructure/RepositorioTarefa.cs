@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Alura.CoisasAFazer.Core.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace Alura.CoisasAFazer.Infrastructure
 {
@@ -9,9 +10,9 @@ namespace Alura.CoisasAFazer.Infrastructure
     {
         DbTarefasContext _ctx;
 
-        public RepositorioTarefa()
+        public RepositorioTarefa(DbTarefasContext context)
         {
-            _ctx = new DbTarefasContext();
+            _ctx = context;
         }
 
         public void AtualizarTarefas(params Tarefa[] tarefas)

@@ -7,10 +7,18 @@ namespace Alura.CoisasAFazer.Infrastructure
     {
         public DbTarefasContext(DbContextOptions options) : base(options)
         {
+
         }
 
         public DbTarefasContext()
         {
+
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+                optionsBuilder.UseSqlServer("string_de_conexao");
         }
 
         public DbSet<Tarefa> Tarefas { get; set; }
