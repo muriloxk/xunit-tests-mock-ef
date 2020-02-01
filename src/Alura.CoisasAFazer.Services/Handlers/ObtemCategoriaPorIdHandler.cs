@@ -13,6 +13,7 @@ namespace Alura.CoisasAFazer.Services.Handlers
             _repo = repositorio;
         }
 
+
         public Categoria Execute(ObtemCategoriaPorId comando)
         {
             return _repo.ObtemCategoriaPorId(comando.IdCategoria);

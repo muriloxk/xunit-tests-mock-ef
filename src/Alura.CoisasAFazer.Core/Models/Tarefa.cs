@@ -16,12 +16,12 @@ namespace Alura.CoisasAFazer.Core.Models
 
         public Tarefa(int id, string titulo, Categoria categoria, DateTime prazo, DateTime? concluidaEm, StatusTarefa status)
         {
-            this.Id = id;
-            this.Titulo = titulo;
-            this.Categoria = categoria;
-            this.Prazo = prazo;
-            this.ConcluidaEm = concluidaEm;
-            this.Status = status;
+            Id = id;
+            Titulo = titulo;
+            Categoria = categoria;
+            Prazo = prazo;
+            ConcluidaEm = concluidaEm;
+            Status = status;
         }
 
         /// <summary>

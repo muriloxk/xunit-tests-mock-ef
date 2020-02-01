@@ -19,9 +19,9 @@ C:/Users/copacabana_alura/Source/Repos/testes-integracao/src/Alura.CoisasAFazer.
 /Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Services/bin/Debug/netstandard2.0/Alura.CoisasAFazer.Infrastructure.dll
 /Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Services/bin/Debug/netstandard2.0/Alura.CoisasAFazer.Core.pdb
 /Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Services/bin/Debug/netstandard2.0/Alura.CoisasAFazer.Infrastructure.pdb
-/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Services/obj/Debug/netstandard2.0/Alura.CoisasAFazer.Services.csprojAssemblyReference.cache
 /Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Services/obj/Debug/netstandard2.0/Alura.CoisasAFazer.Services.AssemblyInfoInputs.cache
 /Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Services/obj/Debug/netstandard2.0/Alura.CoisasAFazer.Services.AssemblyInfo.cs
 /Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Services/obj/Debug/netstandard2.0/Alura.CoisasAFazer.Services.csproj.CopyComplete
 /Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Services/obj/Debug/netstandard2.0/Alura.CoisasAFazer.Services.dll
 /Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Services/obj/Debug/netstandard2.0/Alura.CoisasAFazer.Services.pdb
+/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Services/obj/Debug/netstandard2.0/Alura.CoisasAFazer.Services.csprojAssemblyReference.cache

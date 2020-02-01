@@ -1,46 +1,52 @@
 ﻿<Properties StartupConfiguration="{33A3FD7A-FED3-4E79-953C-BE31EC561F7A}|Default">
   <MonoDevelop.Ide.ItemProperties.src.Alura.CoisasAFazer.WebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="tests/Alura.CoisasAFazer.Tests/UnitTest1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/Alura.CoisasAFazer.WebApp/Controllers/TarefasController.cs">
     <Files>
-      <File FileName="tests/Alura.CoisasAFazer.Tests/GerenciaPrazoDasTarefasHandlerExecute.cs" Line="53" Column="22" />
-      <File FileName="src/Alura.CoisasAFazer.Services/Handlers/GerenciaPrazoDasTarefasHandler.cs" Line="28" Column="42" />
-      <File FileName="src/Alura.CoisasAFazer.Infrastructure/DbTarefasContext.cs" Line="11" Column="10" />
-      <File FileName="tests/Alura.CoisasAFazer.Tests/ObtemCategoriaPorIdExecute.cs" Line="16" Column="1" />
-      <File FileName="src/Alura.CoisasAFazer.WebApp/Controllers/TarefasController.cs" Line="12" Column="6" />
       <File FileName="tests/Alura.CoisasAFazer.Tests/CadastraTarefaHandlerExecute.cs" Line="1" Column="1" />
-      <File FileName="tests/Alura.CoisasAFazer.Tests/FakeRepositoryTarefas.cs" Line="1" Column="1" />
-      <File FileName="tests/Alura.CoisasAFazer.Tests/UnitTest1.cs" Line="24" Column="25" />
+      <File FileName="tests/Alura.CoisasAFazer.Tests/TarefasControllerEndpointCadastraTarefa.cs" Line="36" Column="1" />
+      <File FileName="src/Alura.CoisasAFazer.WebApp/Controllers/TarefasController.cs" Line="28" Column="68" />
+      <File FileName="src/Alura.CoisasAFazer.Services/Handlers/CadastraTarefaHandler.cs" Line="35" Column="1" />
+      <File FileName="src/Alura.CoisasAFazer.Services/Handlers/CommandResult.cs" Line="7" Column="16" />
+      <File FileName="src/Alura.CoisasAFazer.Services/Handlers/ObtemCategoriaPorIdHandler.cs" Line="14" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Alura.CoisasAFazer" expanded="True">
             <Node name="src" expanded="True">
-              <Node name="Alura.CoisasAFazer.Core" expanded="True" />
-              <Node name="Alura.CoisasAFazer.Infrastructure" expanded="True" />
+              <Node name="Alura.CoisasAFazer.Core" expanded="True">
+                <Node name="Dependencies" expanded="True" />
+              </Node>
+              <Node name="Alura.CoisasAFazer.Infrastructure" expanded="True">
+                <Node name="Dependencies" expanded="True" />
+              </Node>
               <Node name="Alura.CoisasAFazer.Services" expanded="True">
+                <Node name="Dependencies" expanded="True" />
                 <Node name="Handlers" expanded="True" />
               </Node>
               <Node name="Alura.CoisasAFazer.WebApp" expanded="True">
-                <Node name="Controllers" expanded="True" />
+                <Node name="Controllers" expanded="True">
+                  <Node name="TarefasController.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
             <Node name="tests" expanded="True">
-              <Node name="Alura.CoisasAFazer.Tests" expanded="True">
-                <Node name="UnitTest1.cs" selected="True" />
-              </Node>
+              <Node name="Alura.CoisasAFazer.Tests" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="Alura.CoisasAFazer" expanded="True" selected="True">
+          <Node name="Alura.CoisasAFazer" expanded="True">
             <Node name="tests" expanded="True">
               <Node name="Alura.CoisasAFazer.Tests" expanded="True">
                 <Node name="Alura.CoisasAFazer.Tests" expanded="True">
-                  <Node name="GerenciaPrazoDasTarefasHandlerExecute" expanded="True" />
-                  <Node name="ObtemCategoriaPorIdExecute" expanded="True" />
+                  <Node name="CadastraTarefaHandlerExecute" expanded="True" />
+                  <Node name="TarefasControllerEndpointCadastraTarefa" expanded="True">
+                    <Node name="QuandoExcecaoForLancadaDeveRetornarStatusCode500" selected="True" />
+                  </Node>
+                  <Node name="UnitTest1" expanded="True" />
                 </Node>
               </Node>
             </Node>
@@ -54,6 +60,9 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Services/Handlers/ObtemCategoriaPorIdHandler.cs" relfile="src/Alura.CoisasAFazer.Services/Handlers/ObtemCategoriaPorIdHandler.cs" line="1" column="1" />
+      <Breakpoint file="/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Services/Handlers/CadastraTarefaHandler.cs" relfile="src/Alura.CoisasAFazer.Services/Handlers/CadastraTarefaHandler.cs" line="42" column="1" />
+      <Breakpoint file="/Users/murilosanches/Projects/testes-integracao/src/Alura.CoisasAFazer.Services/Handlers/CadastraTarefaHandler.cs" relfile="src/Alura.CoisasAFazer.Services/Handlers/CadastraTarefaHandler.cs" line="37" column="1" />
+      <Breakpoint file="/Users/murilosanches/Projects/testes-integracao/tests/Alura.CoisasAFazer.Tests/TarefasControllerEndpointCadastraTarefa.cs" relfile="tests/Alura.CoisasAFazer.Tests/TarefasControllerEndpointCadastraTarefa.cs" line="20" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
