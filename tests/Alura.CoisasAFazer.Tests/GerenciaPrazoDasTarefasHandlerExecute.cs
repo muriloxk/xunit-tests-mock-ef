@@ -7,6 +7,7 @@ using Alura.CoisasAFazer.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Xunit;
 using System.Linq;
+using Moq;
 
 namespace Alura.CoisasAFazer.Tests
 {
@@ -45,5 +46,36 @@ namespace Alura.CoisasAFazer.Tests
             var tarefasEmAtraso = repositorioTarefas.ObtemTarefas(t => t.Status == StatusTarefa.EmAtraso);
             Assert.Equal(4, tarefasEmAtraso.Count());
         }
+
+        [Fact]
+        public void QuandoInvocadoDeveChamarAtualizarTarefasNaQtdDeVezesDeTarefasDesatualizadas()
+        {
+            //Arrange
+            var categoriaSaude = new Categoria("Saude");
+            var categoriaHigiene = new Categoria("Higiene");
+            var categoriaTrabalho = new Categoria("Trabalho");
+
+            List<Tarefa> tarefas = new List<Tarefa>()
+            {
+                new Tarefa(1, "Comprar remédio para dor de cabeça", categoriaSaude, new DateTime(2020,1,1), null, StatusTarefa.Criada),
+                new Tarefa(2, "Marcar consulta com o médico", categoriaSaude, new DateTime(2020,1,1), null, StatusTarefa.Criada),
+                new Tarefa(3, "Marcar reunião com o Marcelo", categoriaTrabalho, new DateTime(2020,1,1), null, StatusTarefa.Criada),
+                new Tarefa(4, "Realizar faxina", categoriaHigiene, new DateTime(2020,1,1), null, StatusTarefa.Criada),
+            };
+
+            var mock = new Mock<IRepositorioTarefas>();
+            mock.Setup(r => r.ObtemTarefas(It.IsAny<Func<Tarefa, bool>>())).Returns(tarefas);
+            var repo = mock.Object;
+
+            var comando = new GerenciaPrazoDasTarefas(new DateTime(2019,1,1));
+            var handler = new GerenciaPrazoDasTarefasHandler(repo);
+
+            //Act
+            handler.Execute(comando);
+
+            //Assert
+            mock.Verify(x => x.AtualizarTarefas(It.IsAny<Tarefa[]>()), Times.Once);
+        }
+
     }
 }
