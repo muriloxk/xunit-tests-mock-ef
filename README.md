@@ -1,4 +1,4 @@
-# Testes de unidade utilizando xUnit + Mocks com EF Core
+# Testes de integração com xUnit, Mocks
 
 Criando cenários com <b>Arrange, Act e Assert</b>.
 
