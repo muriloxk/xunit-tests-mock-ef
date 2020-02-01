@@ -1,5 +1,7 @@
 # Testes de unidade utilizando xUnit + Mocks com EF Core
 
+Criando cenários com <b>Arrange, Act e Assert</b>.
+
 Trabalhando com os dublês: 
 
 <ul>
@@ -9,3 +11,5 @@ Trabalhando com os dublês:
   <li>Mock</li>
   <li>Spy</li>
 </ul>
+
+
